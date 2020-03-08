@@ -1,0 +1,10 @@
+master ansible_host=jenkins-om.francecentral.cloudapp.azure.com ansible_port=22 ansible_user=morad
+slave ansible_host=slave-om.francecentral.cloudapp.azure.com ansible_port=22 ansible_user=morad
+
+
+[Master]
+master
+
+
+[Slave]
+slave

@@ -1,0 +1,5 @@
+---
+- hosts: Master
+  become: true
+  roles:
+   - jenkins

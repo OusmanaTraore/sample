@@ -1,0 +1,30 @@
+variable "subscription_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+variable "tenant_id" {}
+variable "name" {}
+variable "location" {}
+variable "owner" {}
+variable "version" {}
+variable "name_vnet" {}
+variable "add_space" {
+  type = "list"
+}
+variable "name_subnet1" {}
+variable "add_prefix1" {}
+variable "add_prefix2" {}
+variable "name_pubIp1" {}
+variable "name_pubIp2" {}
+variable "name_nsg1" {}
+variable "name_nsg2" {}
+variable "allocation_method" {}
+variable "nameNIC1" {}
+variable "nameNIC2" {}
+variable "nameNICconfig1" {}
+variable "nameNICconfig2" {}
+variable "nameVM1" {}
+variable "nameVM2" {}
+variable "vmSize" {}
+variable "keyData" {}
+variable "computer_name1" {}
+variable "computer_name2" {}
