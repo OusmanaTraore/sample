@@ -1,0 +1,14 @@
+# ignore binary files
+bin/
+target/
+
+# ignore local development files
+.classpath
+.settings
+.mvn
+.gradle
+.project
+.vscode
+
+# ignore MacOS files
+.DS_Store
